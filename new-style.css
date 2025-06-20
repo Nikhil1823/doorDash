@@ -1049,6 +1049,9 @@ a {
         display: none;
     }
 
+    #floating-button {
+        display: none;
+    }
 
     * {
         font-size: 25px;
