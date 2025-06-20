@@ -713,7 +713,8 @@ footer img {
     text-align: center;
     background-color: rgb(254, 241, 238);
     /* margin: 10%; */
-    margin-top: -75px;
+    box-sizing: border-box;
+    /* margin-top: -75px; */
 
 }
 
@@ -738,9 +739,12 @@ footer img {
 .unlock {
     text-align: center;
     margin: 20px auto 0 auto;
+    font-size: 24px;
 }
 
-
+.unlock h2 {
+    font-size: 24px;
+}
 
 
 .image-container-2 {
@@ -756,8 +760,9 @@ footer img {
 }
 
 .carousel-div section {
-    margin-left: 5%;
-    margin-right: -10%;
+    /* margin-left: 5%;
+    margin-right: -10%; */
+    padding: 20px 10px;
 
 }
 
@@ -784,27 +789,44 @@ footer img {
 
 }
 
+.heading-wrapper {
+    width: 100%;
+    padding: 40px 20px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .carousel h2 {
     /* font-size: .9em; */
-    padding-top: 30px;
-    padding-bottom: 30px;
+    /* padding-top: 30px;
+    padding-bottom: 30px; */
     font-size: 1.33em;
-    max-width: 100%;
-    text-align: center;
+    max-width: 300px;
+    height: 56px;
+
+    /* text-align: center; */
+    /* margin: 40px 20px 20px; */
     /* color: red; */
 
 
 }
 
 .carousel h2 span {
-    max-width: 56%;
+    /* width: 100%; */
+    max-width: 300px;
+    height: 56px;
+    text-align: center;
     font-size: inherit;
-    display: inline-block;
+    display: block;
 
 }
 
 #caution {
     padding-top: 10px;
+    font-size: .6667em;
+    font-weight: 600;
 }
 
 .nav-div {
@@ -817,7 +839,7 @@ footer img {
 nav .header {
     text-align: center;
     font-size: 1.4em;
-    margin: 36px auto 10px auto;
+    margin: 36px auto 20px auto;
 }
 
 .nav-div div {
