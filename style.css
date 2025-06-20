@@ -1042,17 +1042,6 @@ a {
         flex-direction: row-reverse;
     } */
 
-    .image-container {
-        height: 500px;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-
-    }
-
-
-
-
 
 
     /* .find-div {
@@ -1197,6 +1186,13 @@ a {
         box-sizing: border-box;
         grid-row: span 2;
     } */
+    .image-container {
+        height: 500px;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+
+    }
 
     .image-container-2 {
         text-align: center;
