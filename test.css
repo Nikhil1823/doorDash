@@ -1,0 +1,406 @@
+/* reset  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'TTNorms';
+    text-decoration: none;
+    font-size: 18px;
+}
+
+p {
+    font-family: 'TT-Para';
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'TTBold';
+}
+
+
+
+/* variable  */
+
+:root {
+    /* margin: 20px 10px 10px 0; */
+    /* --primary: #EB1700; */
+    --primary: #ea1600;
+    --secondary: #FFFFFF;
+    --hover_color: #FF3008;
+
+    --ash_color: #616161;
+}
+
+/* font  */
+@font-face {
+    font-family: 'TTNorms';
+    src: url('assets/fonts/TTNormsPro-Regular.ttf');
+
+    font-family: 'TTBold';
+    src: url('assets/fonts/otf files/TT-Norms-Extra-Bold.otf');
+
+    font-family: 'TT-Para';
+    src: url('assets/fonts/TTNormsPro-Normal.ttf');
+}
+
+
+
+/* mobile  styles  */
+.icon {
+    max-width: 45px;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 7px;
+    margin-right: 8px;
+    background-color: rgba(255, 253, 253, 0.994);
+    padding: 4px;
+}
+
+
+/* header section  */
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    max-height: 69px;
+
+}
+
+.header-wrapper {
+    display: flex;
+    padding: 15px 18px 8px 5px;
+    /* font-family: 'TTBold'; */
+}
+
+.rating-div {
+    display: flex;
+}
+
+
+
+.header-desc h6 {
+    /* font-weight: 800; */
+    margin-bottom: 2px;
+    font-size: 0.7em;
+    /* padding: 0 0 3px 4px; */
+}
+
+.header-desc p {
+    font-size: .6em;
+    margin-bottom: 1px;
+    color: var(--ash_color);
+}
+
+.rating-div span {
+    font-size: .65em;
+    padding: 2px;
+    text-align: center;
+}
+
+.rating-div img {
+    /* padding: 2px; */
+    width: 7%;
+    margin: 1px;
+
+}
+
+.open-button {
+    color: var(--secondary);
+    background-color: var(--primary);
+    border: none;
+    font-size: 0.7em;
+    max-height: 25px;
+    text-align: center;
+    border-radius: 18px;
+    padding: 0px 10px;
+    position: relative;
+    top: 28px;
+    right: 10px;
+
+}
+
+.open-button:hover {
+    background-color: var(--hover_color);
+    cursor: pointer;
+}
+
+
+/* main section  */
+
+main#main-section {
+    background-image: url('assets/hero_desktop.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    max-width: 100%;
+    /* display: grid; */
+    grid-template-columns: repeat(3, 1fr);
+
+
+}
+
+#main-section .open-button {
+    position: absolute;
+
+    /* width: 50%; */
+}
+
+#main-section .intro {
+    margin: auto;
+    padding: 30%;
+    /* grid-column: 2; */
+    /* grid-row: 2; */
+}
+
+.logo-div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.logo-div img:nth-child(1) {
+
+    max-width: 15%;
+}
+
+.logo-div img:nth-child(2) {
+
+    max-width: 48%;
+    padding-left: 6px;
+}
+
+.intro .ad h1 {
+    color: white;
+    /* font-family: "TTBold"; */
+
+}
+
+
+
+.intro {
+    margin: 50% auto;
+}
+
+.intro h1 {
+    font-weight: bolder;
+    font-size: .9em;
+}
+
+section {
+    margin: 0 auto;
+}
+
+.input-div {
+    position: relative;
+
+}
+
+
+.input-div img {
+    position: absolute;
+    top: 8px;
+    left: 12px;
+}
+
+.input-div span {
+    position: absolute;
+    top: 6px;
+    /* right: 8px; */
+    border: 2px solid var(--hover_color);
+    border-radius: 50%;
+    background-color: var(--hover_color);
+    color: white;
+    padding: 5px;
+    right: 0;
+}
+
+
+
+
+.input-div input {
+    padding: 7px;
+    /* text-align: center; */
+    /* position: relative; */
+    padding-left: 15%;
+    border-radius: 18px;
+    border: none;
+    outline: none;
+}
+
+#wrapper-section {
+    border: 2px solid rgb(230, 225, 225);
+    background-color: azure;
+    text-align: center;
+    margin: 4% 15%;
+    border-radius: 12px;
+    padding: 0 6px;
+
+
+}
+
+.open-button-wrapper {
+    color: var(--secondary);
+    background-color: var(--primary);
+    border: none;
+    height: 30px;
+    text-align: center;
+    border-radius: 46px;
+    padding: 0;
+    width: 95%;
+    margin: 2%;
+    margin-bottom: 12px;
+    font-size: 0.7em;
+}
+
+.dasher {
+    display: grid;
+    /* margin: 15%; */
+
+}
+
+.promo {
+    display: flex;
+    /* border: 2px solid green; */
+    /* margin: 5% auto; */
+    padding: 3%;
+    position: relative;
+
+
+}
+
+.promo img {
+    max-width: 20%;
+    margin: 12px 20px;
+    position: relative;
+    bottom: 16%;
+}
+
+.promo h2 {
+
+
+    font-size: 1.25em;
+    margin-top: 10%;
+}
+
+.promo p {
+
+    font-size: 13px;
+
+}
+
+.promo a {
+    font-size: .6em;
+    color: var(--primary);
+    /* font-family: 'TTBold'; */
+}
+
+.find {
+
+    display: grid;
+    background: rgb(247, 235, 237);
+    position: relative;
+    margin-top: 110px;
+}
+
+
+
+.find aside {
+
+    padding-left: 12px;
+    /* margin-top: 30px; */
+}
+
+.image-container {
+    width: 97%;
+    /* margin: 5%; */
+    /* margin-top: 110px; */
+    padding: auto;
+    height: 125px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+
+}
+
+.image-container+h4 {
+    margin: 18px 0 10px 0;
+}
+
+.image-container+h4+h6 {
+    margin-bottom: 10px;
+    font-size: .78em;
+}
+
+.find p {
+    font-size: .6em;
+    margin-bottom: 10px;
+}
+
+.find-button {
+    color: white;
+    padding: 5px 9px;
+    text-align: center;
+    border-radius: 14px;
+    margin-bottom: 30px;
+    outline: none;
+    border: none;
+    font-size: 0.65em;
+    font-weight: bold;
+    background-color: var(--primary);
+}
+
+.find-div {
+    position: relative;
+    bottom: 60px;
+    margin-bottom: -75px;
+}
+
+.bg {
+    background: url(assets/hand-background.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: top; */
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+
+}
+
+.bg {
+    padding: 32px;
+    height: 100%;
+    width: 100%;
+    color: white;
+
+}
+
+
+
+.bg::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.56);
+    inset: 0;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.bg p {
+    z-index: 2;
+    color: white
+}
