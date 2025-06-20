@@ -71,7 +71,7 @@ span {
 
 
     font-family: 'TTNew';
-    src: url('assets/fonts/new-regular.otf');
+    src: url('assets/fonts/new-font/TTNorms-Regular.woff2');
 
 }
 
@@ -79,12 +79,12 @@ span {
 
 @font-face {
     font-family: 'TT-Para';
-    src: url('assets/fonts/TTNormsPro-Normal.ttf');
+    src: url('assets/fonts/new-font/TTNorms-Medium.woff2');
 }
 
 @font-face {
     font-family: 'TTNew-Bold';
-    src: url('assets/fonts/new-bold.otf');
+    src: url('assets/fonts/new-font/TTNorms-ExtraBold.woff2');
 }
 
 
@@ -188,22 +188,22 @@ header {
 
 #tab-header {
     /* background-color: transparent; */
-    position: absolute;
+    /* position: absolute; */
     display: none;
     margin-top: 0;
-    height: auto;
-    padding-top: 12px;
-    padding-bottom: 10px;
+    height: 48px;
+    /* padding-top: 12px;
+    padding-bottom: 10px; */
     width: 100%;
 }
 
 #tab-header .logo-img {
-    width: 40px;
+    width: 32px;
     margin-right: 5px;
 
 }
 
-#tab-header .logo-container {
+/* #tab-header .logo-container {
     position: relative;
     display: flex;
     flex-direction: row;
@@ -211,12 +211,9 @@ header {
     justify-content: center;
     align-items: center;
 
-}
+} */
 
 #tab-header .button-div-2 {
-    position: relative;
-    top: 16px;
-    right: 5px;
     /* padding: 10px; */
     display: flex;
     width: 100%;
@@ -224,16 +221,13 @@ header {
     font-size: 0.72em;
     justify-content: flex-end;
     /* align-items: center; */
-    gap: 10px;
-    padding-right: 18px;
+    gap: 8px;
+    /* padding-right: 18px; */
 
 }
 
 
-.signup {
-    color: var(--ash_color);
-    background-color: white;
-}
+
 
 /* main section  */
 
@@ -311,7 +305,7 @@ main#main-section {
     text-align: center;
     font-size: 32px;
     line-height: 28px;
-
+    max-width: 350px;
     font-weight: 900;
 }
 
@@ -580,6 +574,13 @@ footer img {
     background-color: var(--primary);
 }
 
+.signup {
+    color: var(--ash_color);
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
 .new-find-div {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -844,14 +845,15 @@ footer img {
 
 nav .header {
     text-align: center;
-    font-size: 1.4em;
-    margin: 36px auto 20px auto;
+    font-size: 1.28em;
+    margin: 48px auto 20px auto;
 }
 
 .nav-div div {
     padding: 8px;
-    font-size: .6em;
+    font-size: .64em;
     text-align: center;
+    height: 40px;
 }
 
 
@@ -1071,7 +1073,23 @@ a {
 }
 
 @media screen and (min-width:768px) {
+    main#main-section {
+        background: url('assets/hero_mobile.avif');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 650px;
+    }
 
+    .intro .ad h1 {
+        max-width: 720px;
+        font-size: 1.6em;
+        height: 40px;
+    }
+
+    .intro .logo-div {
+        transform: translateY(-145px);
+    }
 
     .section-container {
         display: none;
@@ -1092,6 +1110,13 @@ a {
 
     #tab-header {
         display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        background-color: white;
+        padding: 4px 8px;
     }
 
     .promo h2 {
@@ -1283,6 +1308,7 @@ a {
     #new-second-aside-test aside {
         flex-direction: row;
         padding-top: 80px;
+        padding-bottom: 20px;
         /* flex-grow: 1; */
 
     }
@@ -1445,6 +1471,29 @@ a {
         padding: 0 15.5px;
         border-radius: 9999px;
         font-size: 16px;
+    }
+
+    /* fooetr thing */
+    .main-tags {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .categories {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        text-align: left;
+        margin: 0;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    #footer-title {
+        margin-top: 0;
+    }
+
+    footer {
+        padding: 0 20px;
     }
 }
 

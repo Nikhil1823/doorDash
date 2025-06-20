@@ -31,3 +31,14 @@ arrowBtn.addEventListener("click", function () {
     seeMore.textContent === "See more" ? "See less" : "See more";
   arrow.classList.toggle("rotated");
 });
+
+window.onscroll = function () {
+  const tabHeader = document.getElementById("tab-header");
+  console.log("hi");
+  console.log(window.innerWidth);
+
+  if (document.documentElement.scrollTop > 150 && window.innerWidth >= 768) {
+    tabHeader.style.display = "flex";
+    console.log("scrolled psat 200");
+  }
+};
