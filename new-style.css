@@ -8,6 +8,8 @@
     font-size: 18px;
 }
 
+
+
 p,
 li,
 a {
@@ -1043,6 +1045,10 @@ a {
 @media screen and (min-width:768px) {
 
 
+    .section-container {
+        display: none;
+    }
+
 
     * {
         font-size: 25px;
@@ -1055,6 +1061,25 @@ a {
 
     #tab-header {
         display: flex;
+    }
+
+    .promo h2 {
+        font-size: 32px;
+    }
+
+    .promo p {
+        font-size: 18px;
+    }
+
+    .promo a {
+        font-size: 14px;
+    }
+
+    .promo img {
+        max-width: 124px;
+        max-height: 124px;
+        /* aspect-ratio: 1/1; */
+
     }
 
     #tab-header .button-div-2 a {
