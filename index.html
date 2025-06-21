@@ -37,7 +37,7 @@
 
     </header>
     <header id="tab-header" class="tab-header">
-        <img src="assets/big_icon.svg" alt="" class="logo-img">
+        <img src="assets/big_icon.svg" alt="" class="logo-img" id="hide-logo">
         <!-- <div class="logo-container">
             <img src="assets/icon_name.svg" alt="" class="logo-img-2">
         </div> -->
@@ -58,17 +58,23 @@
     </header> -->
 
     <main id="main-section" class="bg-config">
+
         <div class="floating-button-div">
 
             <button id="floating-button">Open App</button>
         </div>
-        <div class="intro">
+        <!-- <div class="button-div-2">
+            <a class="login find-button">Sign In</a>
+            <a class="signup find-button ">Sign Up</a>
+        </div> -->
 
+        <div class="intro">
 
             <div class="logo-div">
                 <img src="assets/icon.svg" alt="">
                 <img src="assets/icon_name.svg" alt="">
             </div>
+
             <div class="ad">
                 <h1>$0 DELIVERY FEE ON FIRST ORDER</h1>
             </div>
@@ -124,8 +130,9 @@
     </div>
     <main class="dasher">
         <div class="promo">
-
-            <img src="https://cdn.doordash.com/media/consumer/home/landing/new/ScootScoot.svg" alt="">
+            <div class="promo-image">
+                <img src="https://cdn.doordash.com/media/consumer/home/landing/new/ScootScoot.svg" alt="">
+            </div>
             <div class="contents">
                 <h2>Become a <br> Dasher</h2>
                 <p>As a delivery driver, make <br> money and work on your <br> schedule. Sign up in minutes</p>
@@ -134,7 +141,9 @@
             </div>
         </div>
         <div class="promo">
-            <img src="https://cdn.doordash.com/media/consumer/home/landing/new/Storefront.svg" alt="">
+            <div class="promo-image">
+                <img src="https://cdn.doordash.com/media/consumer/home/landing/new/Storefront.svg" alt="">
+            </div>
 
 
             <div class="contents">
@@ -144,7 +153,9 @@
             </div>
         </div>
         <div class="promo">
-            <img src="https://cdn.doordash.com/media/consumer/home/landing/new/iphone.svg" alt="">
+            <div class="promo-image">
+                <img src="https://cdn.doordash.com/media/consumer/home/landing/new/iphone.svg" alt="">
+            </div>
 
             <div class="contents">
                 <h2>Get the best <br> DoorDash <br> experience</h2>
@@ -515,53 +526,54 @@
     <footer>
         <div class="footer-container">
             <div class="categories">
-                <div class="category-1">
-                    <p id="footer-title">Popular Categories</p>
-                    <p>Alcohol Australia</p>
-                    <p>Alcohol Delivery Australia</p>
-                    <p>Back To School Delivery</p>
-                    <p>Battle Of The Brands</p>
-                    <p>Beauty Stores</p>
-                    <p>Beauty Supply</p>
-                    <p>Catering Near Me</p>
-                    <p>Chips Ahoy Big Cookie</p>
-                    <p>Convenience Stores Canada</p>
+                <p id="footer-title">Popular Categories</p>
+                <div class="grid-category">
+                    <div class="category-1">
+                        <p>Alcohol Australia</p>
+                        <p>Alcohol Delivery Australia</p>
+                        <p>Back To School Delivery</p>
+                        <p>Battle Of The Brands</p>
+                        <p>Beauty Stores</p>
+                        <p>Beauty Supply</p>
+                        <p>Catering Near Me</p>
+                        <p>Chips Ahoy Big Cookie</p>
+                        <p class="extra-height">Convenience Stores Canada</p>
 
-                </div>
-                <div class="category-2">
-                    <p>Dashmart Near Me</p>
-                    <p>Deck The Doorstep</p>
-                    <p>Diageo Holiday</p>
-                    <p>Drugstores Canada</p>
-                    <p>Flower Delivery</p>
-                    <p>Grocery Delivery Canada</p>
-                    <p>Grocery Retail Convenience</p>
-                    <p>Haleon Well Within Reach</p>
-                    <p>Halloween</p>
-                </div>
-                <div class="category-3">
-                    <p>Holiday Hosting</p>
-                    <p>Hsa Bank</p>
-                    <p>Hsa Fsa Store</p>
-                    <p>Large Group Orders</p>
-                    <p>Local Eats Deserve Pepsi</p>
-                    <p>Make It Date Night</p>
-                    <p>Medicine Delivery</p>
-                    <p>Mothers Day</p>
-                    <p>Pet Store Near Me</p>
-                </div>
-                <div class="category-4">
+                    </div>
+                    <div class="category-2">
+                        <p>Dashmart Near Me</p>
+                        <p>Deck The Doorstep</p>
+                        <p>Diageo Holiday</p>
+                        <p>Drugstores Canada</p>
+                        <p>Flower Delivery</p>
+                        <p>Grocery Delivery Canada</p>
+                        <p class="extra-height">Grocery Retail Convenience</p>
+                        <p>Haleon Well Within Reach</p>
+                        <p>Halloween</p>
+                    </div>
+                    <div class="category-3">
+                        <p>Holiday Hosting</p>
+                        <p>Hsa Bank</p>
+                        <p>Hsa Fsa Store</p>
+                        <p>Large Group Orders</p>
+                        <p>Local Eats Deserve Pepsi</p>
+                        <p>Make It Date Night</p>
+                        <p>Medicine Delivery</p>
+                        <p>Mothers Day</p>
+                        <p>Pet Store Near Me</p>
+                    </div>
+                    <div class="category-4">
 
-                    <p>Pickleball</p>
-                    <p>Play For An Ultra</p>
-                    <p>Procter Gamble</p>
-                    <p>Retail Stores Near Me</p>
-                    <p>Seasonal Holidays</p>
-                    <p>Snap Ebt</p>
-                    <p>Valentines Day</p>
-                    <p>Winter Holidays</p>
+                        <p>Pickleball</p>
+                        <p>Play For An Ultra</p>
+                        <p>Procter Gamble</p>
+                        <p>Retail Stores Near Me</p>
+                        <p>Seasonal Holidays</p>
+                        <p>Snap Ebt</p>
+                        <p>Valentines Day</p>
+                        <p>Winter Holidays</p>
+                    </div>
                 </div>
-
 
             </div>
             <div class="footer-sections">
@@ -571,43 +583,44 @@
                     <img src="assets/on_android.jpg" alt="Google Play">
                 </div>
 
-                <div class="footer-section">
-                    <p id="footer-title-2">Get to Know Us</p>
-                    <ul>
-                        <li>About Us</li>
-                        <li>Careers</li>
-                        <li>Investors</li>
-                        <li>Company Blog</li>
-                        <li>Engineering Blog</li>
-                        <li>Merchant Blog</li>
-                        <li>Gift Cards</li>
-                        <li>Promotions</li>
-                        <li>Dasher Central</li>
-                        <li>LinkedIn</li>
-                        <li>Glassdoor</li>
-                        <li>Accessibility</li>
-                        <li>Newsroom</li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <p id="footer-title-3">Let Us Help You</p>
-                    <ul>
-                        <li>Account Details</li>
-                        <li>Order History</li>
-                        <li>Help</li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <p id="footer-title-4">Doing Business</p>
-                    <ul>
-                        <li>Become a Dasher</li>
-                        <li>DoorDash Merchant</li>
-                        <li>Get Dashers for Deliveries</li>
-                        <li>Get DoorDash for Business</li>
-                    </ul>
+                <div class="footer-section-collection">
+                    <div class="footer-section">
+                        <p id="footer-title-2">Get to Know Us</p>
+                        <ul>
+                            <li>About Us</li>
+                            <li>Careers</li>
+                            <li>Investors</li>
+                            <li>Company Blog</li>
+                            <li>Engineering Blog</li>
+                            <li>Merchant Blog</li>
+                            <li>Gift Cards</li>
+                            <li>Promotions</li>
+                            <li>Dasher Central</li>
+                            <li>LinkedIn</li>
+                            <li>Glassdoor</li>
+                            <li>Accessibility</li>
+                            <li>Newsroom</li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <p id="footer-title-3">Let Us Help You</p>
+                        <ul>
+                            <li>Account Details</li>
+                            <li>Order History</li>
+                            <li>Help</li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <p id="footer-title-4">Doing Business</p>
+                        <ul>
+                            <li>Become a Dasher</li>
+                            <li>DoorDash Merchant</li>
+                            <li>Get Dashers for Deliveries</li>
+                            <li>Get DoorDash for Business</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-
             <div class="footer-bottom">
                 <div class="social-icons">
                     <ul class="social">
@@ -647,6 +660,12 @@
                             fill="black"></path>
                     </svg>
                     <p id="footer-title-5"> English (US)</p>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M5.29289 8.79289C5.68342 8.40237 6.31658 8.40237 6.70711 8.79289L12 14.0858L17.2929 8.79289C17.6834 8.40237 18.3166 8.40237 18.7071 8.79289C19.0976 9.18342 19.0976 9.81658 18.7071 10.2071L12.7071 16.2071C12.5196 16.3946 12.2652 16.5 12 16.5C11.7348 16.5 11.4804 16.3946 11.2929 16.2071L5.29289 10.2071C4.90237 9.81658 4.90237 9.18342 5.29289 8.79289Z"
+                            fill="black"></path>
+                    </svg>
 
                 </div>
                 <div class="tos">
