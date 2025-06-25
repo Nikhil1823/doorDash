@@ -1,1 +1,92 @@
-need to do the dasher and 
+need to do the dasher and everything above it
+
+i\kinda completed bg  in desktop 
+
+
+.dasher-container {
+    max-width: 768px;
+    width: 100%;
+}
+
+.dasher {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
+    margin: 40px auto;
+    padding: 8px;
+    /* margin-top: 5%; */
+
+}
+
+.promo-image {
+    width: 120px;
+}
+
+.promo {
+    display: flex;
+    padding: 16px;
+    /* max-width: 402px; */
+    min-width: 360px;
+    position: relative;
+    /* height: 216px; */
+    /* width: 402px; */
+    justify-content: center;
+    gap: 0;
+}
+
+.promo img {
+    max-width: 88px;
+    max-height: 88px;
+    /* margin: 12px 20px; */
+    /* position: relative; */
+    /* top: -30px; */
+}
+
+
+
+
+
+.promo h2 {
+    /* height: 80px;
+    max-width: 250px;
+    min-width: 208px; */
+    font-family: 'TTNB';
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.01px;
+    font-weight: 700;
+    /* margin-top: 10%; */
+}
+
+.promo p {
+    /* max-width: 250px;
+    min-width: 208px;
+    min-height: 72px;
+    max-height: 96px; */
+    margin-bottom: 12px;
+    font-size: 1em;
+    line-height: 24px;
+    font-weight: 500;
+
+    text-align: left;
+
+}
+
+.promo .promo-button-wrapper {
+    display: flex;
+    align-items: center;
+    /* width: 250px; */
+}
+
+.promo a {
+    font-size: .7778em;
+    color: var(--primary);
+    font-family: 'TT-Para';
+    line-height: 20px;
+    /* margin-right: 4px; */
+    letter-spacing: .2px;
+    font-weight: 600;
+
+
+}

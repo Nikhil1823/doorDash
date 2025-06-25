@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'TTNew';
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+
+p,
+li,
+a {
+    text-decoration: none;
+    list-style-type: none;
+
+
+}
+
+:root {
+    /* margin: 20px 10px 10px 0; */
+    /* --primary: #EB1700; */
+    --primary: #ea1600;
+    --secondary: #FFFFFF;
+    --hover_color: #FF3008;
+
+    --ash_color: #616161;
+}
+
+/* font  */
+@font-face {
+
+
+
+    font-family: 'TTNew';
+    src: url('assets/fonts/new-font/TTNorms-Regular.woff2');
+
+}
+
+
+
+@font-face {
+    font-family: 'TT-Para';
+    src: url('assets/fonts/new-font/TTNorms-Medium.woff2');
+}
+
+@font-face {
+    font-family: 'TTNew-Bold';
+    src: url('assets/fonts/new-font/TTNorms-ExtraBold.woff2');
+}
+
+@font-face {
+    font-family: 'TTBold';
+    src: url(assets/fonts/new-font/TTNorms-Bold.woff2);
+}
+
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: red;
+    border: 2px solid black;
+    height: 80px;
+    padding: 8px;
+    width: 100%;
+    margin-top: 16px;
+
+}
+
+.header-desc span:nth-child(1) {
+    height: 22px;
+    width: 100%;
+    display: block;
+}
+
+.header-desc span:nth-child(2) {
+    height: 20px;
+    width: 100%;
+    display: block;
+}
+
+.rating-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 20px;
+}
+
+.button-div {
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    width: auto;
+    justify-self: flex-start;
+}

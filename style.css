@@ -751,12 +751,12 @@ li {
     margin-bottom: 12px;
 }
 
-.store-buttons img {
+/* .store-buttons img {
     border-radius: 8px;
     height: 40px;
     margin: 10px auto;
     display: block;
-}
+} */
 
 .store-buttons {
     margin-top: 32px;
@@ -1266,8 +1266,7 @@ a {
 
     }
 
-
-
-
-
-}
+ 
+ 
+     
+}     
