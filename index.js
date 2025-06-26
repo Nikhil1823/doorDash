@@ -31,6 +31,20 @@ arrowBtn.addEventListener("click", function () {
     seeMore.textContent === "See more" ? "See less" : "See more";
   arrow.classList.toggle("rotated");
 });
+// updateButtonContent();
+function updateButtonContent() {
+  console.log("yeah here");
+
+  const loginButton = document.getElementById("login");
+
+  if (window.innerWidth >= 768) {
+    loginButton.innerText = "SignIn";
+  } else {
+    loginButton.innerText = "Login";
+  }
+}
+
+// window.addEventListener("resize", updateButtonContent);
 
 // window.onscroll = function () {
 //   const tabHeader = document.getElementById("tab-header");

@@ -90,3 +90,338 @@ i\kinda completed bg  in desktop
 
 
 }
+
+
+
+working on 768px and these styles looks rubbish or repetitive
+
+
+    .new-find-div {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+        /* padding: 20px; */
+    }
+
+    .new-find-div-div aside {
+        display: flex;
+        /* grid-row: span 2; */
+        gap: 60px;
+        max-width: 1184px;
+        margin: 20px 20px 0px 20px;
+        flex-direction: row-reverse;
+        /* margin-bottom: -56px; */
+
+    }
+
+    .new-find-div-div aside h4 {
+        font-size: 40px;
+        text-align: left;
+        letter-spacing: -0.01px;
+    }
+
+    .new-find-div-div aside h6 {
+        font-size: 20px;
+    }
+
+    .new-find-div-div aside img {
+        /* position: relative;
+            z-index: 2; */
+        width: 100%;
+    }
+
+    /* .new-first-aside{
+        margin-bottom: -60px;
+    } */
+    #new-second-aside-test {
+        /* background: rgb(254, 241, 238); */
+        background: rgb(254, 241, 238);
+        background: rgba(30, 30, 30, .6);
+        /* padding-top: 60px; */
+        /* margin-top: 80px; */
+        /* margin: 0;
+            padding: 0; */
+        /* position: relative; */
+        /* top: -56px; */
+        padding-top: 0;
+    }
+
+
+    #new-second-aside-test aside {
+        flex-direction: row;
+        padding-top: 80px;
+        padding-bottom: 23px;
+        /* flex-grow: 1; */
+
+
+    }
+
+    .new-find-div-div aside p {
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: -0.01px;
+        /* margin-top: 20px; */
+        font-weight: 500;
+        /* max-width: 90%; */
+    }
+
+    .testing-new {
+        /* border: 2px solid black; */
+        margin: 0;
+        padding: 0;
+    }
+
+    .content-wrapper {
+        /* border: 1px solid cyan; */
+        /* margin-top: 145px; */
+        /* justify-content: center; */
+        align-items: center;
+        display: flex;
+
+    }
+
+    .content-wrapper h4 {
+        padding-top: 20px;
+    }
+
+    /* .content-wrapper p { */
+    /* max-width: 100%; */
+
+    /* } */
+
+    .content-wrapper button {
+        margin-top: 30px;
+    }
+
+    .content-wrapper h4 {
+
+        font-size: 1.6em;
+        line-height: 40px;
+        margin: 0 0 20px 0;
+        max-width: 90%;
+    }
+
+    .content-wrapper p {
+        max-width: 100%;
+        padding: 0;
+    }
+
+
+
+
+
+    .content-wrapper h6 {
+
+        font-family: 'TT-Para';
+        font-size: .8em;
+        letter-spacing: 0.5px;
+        line-height: 22px;
+
+        /* padding-top: 3px; */
+
+    }
+
+    .find-button {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .test-bg {
+        width: 100%;
+        /* background-color: rgba(30, 30, 30, 30, .6); */
+        background: url(assets/hand-background.avif);
+    }
+
+    #new-second-aside-test aside {
+        padding-bottom: 20px;
+
+    }
+
+
+in tab
+alignment issue in find-div section i mean everyone 
+
+need to complete the dasher and add section for all 3 screens
+
+
+
+
+
+
+dasher thing
+
+
+
+
+
+
+.dasher-container {
+    margin: 0 auto;
+    max-width: 768px;
+    /* background-color: red; */
+
+}
+
+.dasher {
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 8px;
+}
+
+.promo {
+    padding: 16px;
+    min-width: 360px;
+    max-width: 100%;
+    display: flex;
+    flex-flow: row;
+}
+
+.promo img {
+    width: 88px;
+    height: 88px;
+}
+
+.promo-image {
+    margin-right: 32px;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    width: 100%;
+}
+
+.contents h2 {
+    /* letter-spacing: -0.01px; */
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'TT-Para';
+    height: 80px;
+    text-align: left;
+}
+
+.contents p {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    /* letter-spacing: -0.01px; */
+}
+
+.promo-button-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+    align-items: center;
+
+}
+
+.promo-button-wrapper a {
+    font-size: 14px;
+    color: #eb1700ff;
+    line-height: 20px;
+    /* letter-spacing: -0.01px; */
+    font-weight: 700;
+    display: block;
+}
+
+.dasher .promo:last-child h2 {
+    height: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dasher for big screen 1184
+.dasher {
+        max-width: 1104px;
+        height: 630px;
+        /* margin: 96px; */
+        padding: 12px;
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+    }
+
+    .promo {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        min-height: 420px;
+        height: 420px;
+        width: 360px;
+        padding: 10px;
+        align-items: center;
+    }
+
+    .promo-image {
+
+        width: 264px;
+        height: 154px;
+        /* margin-right: 64px; */
+    }
+
+    .promo img {
+        max-width: 154px;
+        width: 154px;
+        max-height: 154px;
+        height: 154px;
+
+    }
+
+    .promo-image {
+        text-align: center;
+    }
+
+    .promo h2 {
+        width: 250px;
+        line-height: 44px;
+        font-family: 'TT-Para';
+    }
+
+    .promo p {
+        width: 250px;
+        margin-top: 10px;
+        margin-bottom: 0;
+        font-size: 18px;
+        text-align: center;
+        line-height: 24px;
+
+    }
+
+    .contents {
+        margin: 0;
+    }
+
+
+
+
+
+    .contents a {
+        font-size: 18px;
+    }
