@@ -1,6 +1,6 @@
 need to do the dasher and everything above it
 
-i\kinda completed bg  in desktop 
+i kinda completed bg  in desktop 
 
 
 .dasher-container {
@@ -205,10 +205,6 @@ working on 768px and these styles looks rubbish or repetitive
         max-width: 100%;
         padding: 0;
     }
-
-
-
-
 
     .content-wrapper h6 {
 
