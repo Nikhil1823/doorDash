@@ -33,10 +33,7 @@ arrowBtn.addEventListener("click", function () {
 });
 // updateButtonContent();
 function updateButtonContent() {
-  console.log("yeah here");
-
   const loginButton = document.getElementById("login");
-
   if (window.innerWidth >= 768) {
     loginButton.innerText = "SignIn";
   } else {
@@ -44,7 +41,6 @@ function updateButtonContent() {
   }
 }
 
-// window.addEventListener("resize", updateButtonContent);
 
 // window.onscroll = function () {
 //   const tabHeader = document.getElementById("tab-header");
