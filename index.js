@@ -41,13 +41,3 @@ function updateButtonContent() {
   }
 }
 
-
-
-// window.onload = function () {
-//   if (window.innerWidth < 768) {
-//     const buttonDiv = document.getElementsByClassName("button-div-2 ");
-//     const tabHeader = document.getElementById("tab-header");
-//     tabHeader.style.display = "none";
-//     buttonDiv[0].style.display = "none";
-//   }
-// };
