@@ -41,10 +41,6 @@ function updateButtonContent() {
   }
 }
 
-//   console.log("hi");
-//   console.log(window.innerWidth);
-//   const logo = document.getElementById("hide-logo");
-//   console.log(buttonDiv);
 
 //   if (document.documentElement.scrollTop > 150 && window.innerWidth >= 768) {
 //     tabHeader.style.display = "flex";
