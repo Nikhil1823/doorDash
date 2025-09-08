@@ -41,10 +41,7 @@ function updateButtonContent() {
   }
 }
 
-//   } else if (
-//     window.innerWidth >= 768 &&
-//     document.documentElement.scrollTop < 150
-//   ) {
+
 //     logo.style.display = "none";
 //     // buttonDiv[0].style.display - "flex";
 //     tabHeader.style.position = "absolute";
