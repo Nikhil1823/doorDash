@@ -42,16 +42,6 @@ function updateButtonContent() {
 }
 
 
-//     logo.style.display = "none";
-//     // buttonDiv[0].style.display - "flex";
-//     tabHeader.style.position = "absolute";
-//     tabHeader.style.top = "12px";
-//     tabHeader.style.backgroundColor = "transparent";
-//     tabHeader.style.paddingRight = 0;
-//   } else {
-//     tabHeader.style.display = "none";
-//   }
-// };
 
 // window.onload = function () {
 //   if (window.innerWidth < 768) {
