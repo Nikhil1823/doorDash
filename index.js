@@ -41,17 +41,6 @@ function updateButtonContent() {
   }
 }
 
-
-//   if (document.documentElement.scrollTop > 150 && window.innerWidth >= 768) {
-//     tabHeader.style.display = "flex";
-//     tabHeader.style.position = "sticky";
-//     buttonDiv[0].style.display = "flex";
-//     tabHeader.style.top = 0;
-//     tabHeader.style.backgroundColor = "white";
-//     logo.style.display = "block";
-//     tabHeader.style.paddingRight = "8px";
-//     // tabHeader.classList.add("tab-header-adjustment");
-//     console.log("scrolled psat 200");
 //   } else if (
 //     window.innerWidth >= 768 &&
 //     document.documentElement.scrollTop < 150
