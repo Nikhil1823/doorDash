@@ -41,11 +41,6 @@ function updateButtonContent() {
   }
 }
 
-
-// window.onscroll = function () {
-//   const tabHeader = document.getElementById("tab-header");
-//   const buttonDiv = document.getElementsByClassName("button-div-2 ");
-
 //   console.log("hi");
 //   console.log(window.innerWidth);
 //   const logo = document.getElementById("hide-logo");
