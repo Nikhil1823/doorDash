@@ -328,17 +328,7 @@ section {
 
 
 
-.image-container {
-    width: 100%;
-    /* margin: 5%; */
-    /* margin-top: 110px; */
-    /* padding: auto; */
-    height: 180px;
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-    box-sizing: border-box;
-}
+
 
 .image-container img {
     width: 100%;
