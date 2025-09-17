@@ -446,24 +446,6 @@ section {
 
 /* .bg div {} */
 
-/* .bg div {
-
-    position: relative;
-    overflow: hidden;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(30, 30, 30, 0.6);
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-
-
-
-} */
 
 .bg h2 {
     /* padding: 65px 1% 2% 1%; */
