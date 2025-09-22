@@ -13,18 +13,6 @@
     background-position: center;
 }
 
-
-
-/* variable  */
-
-:root {
-    --primary: #ea1600;
-    --secondary: #FFFFFF;
-    --hover_color: #FF3008;
-    --ash_color: #616161;
-}
-
-/* font  */
 @font-face {
 
 
