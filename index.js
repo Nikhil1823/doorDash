@@ -31,7 +31,7 @@ arrowBtn.addEventListener("click", function () {
     seeMore.textContent === "See more" ? "See less" : "See more";
   arrow.classList.toggle("rotated");
 });
-// updateButtonContent();
+
 function updateButtonContent() {
   const loginButton = document.getElementById("login");
   if (window.innerWidth >= 768) {
