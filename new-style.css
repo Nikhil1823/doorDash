@@ -42,12 +42,8 @@ span {
 
 /* font  */
 @font-face {
-
-
-
     font-family: 'TTNew';
     src: url('assets/fonts/new-font/TTNorms-Regular.woff2');
-
 }
 
 @font-face {
