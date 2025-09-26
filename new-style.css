@@ -79,10 +79,8 @@ span {
 
 i {
     color: var(--primary);
-
     font-size: 10px;
 }
-
 
 .header-wrapper {
     display: grid;
@@ -96,8 +94,6 @@ i {
     grid-template-columns: auto 1fr auto;
 }
 
-
-
 .rating-div {
     display: flex;
     flex-direction: row;
@@ -105,7 +101,6 @@ i {
     height: 20px;
     align-items: center;
     padding-left: 2px;
-
 }
 
 .rating-div svg {
