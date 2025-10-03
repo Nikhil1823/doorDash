@@ -46,9 +46,7 @@ header {
     justify-content: space-between;
     max-height: 69px;
     margin-top: 16px;
-
 }
-
 .header-wrapper {
     display: flex;
     padding: 15px 18px 8px 5px;
