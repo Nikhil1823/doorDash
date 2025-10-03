@@ -1,7 +1,3 @@
-need to do the dasher and everything above it
-
-i kinda completed bg  in desktop 
-
 
 .dasher-container {
     max-width: 768px;
