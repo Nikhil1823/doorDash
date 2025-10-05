@@ -77,9 +77,6 @@ s
 
 
 }
-
-
-
 working on 768px and these styles looks rubbish or repetitive
 
 
