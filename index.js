@@ -40,5 +40,3 @@ function updateButtonContent() {
     loginButton.innerText = "Login";
   }
 }
-
-
